@@ -82,4 +82,4 @@ model.compile(loss='categorical_crossentropy',
 
 model.fit(x_train, y_train, batch_size=16, epochs=50, validation_data=(x_test, y_test), shuffle=False)
 
-model.save('BrainTumor10EpochsCategorical.h5')
+model.save('BrainTumor50EpochsCategorical.h5')

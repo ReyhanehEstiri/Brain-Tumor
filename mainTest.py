@@ -4,7 +4,7 @@ from tensorflow import keras
 from PIL import Image
 import numpy as np
 
-# model = keras.models.load_model('BrainTumor10EpochsCategorical.h5')
+# model = keras.models.load_model('BrainTumor50EpochsCategorical.h5')
 model = keras.models.load_model('BrainTumor10Epochs.h5')
 
 image = cv2.imread('pred\\pred10.jpg')
