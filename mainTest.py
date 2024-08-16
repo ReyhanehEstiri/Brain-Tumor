@@ -7,7 +7,7 @@ import numpy as np
 # model = keras.models.load_model('BrainTumor10EpochsCategorical.h5')
 model = keras.models.load_model('BrainTumor10Epochs.h5')
 
-image = cv2.imread('pred\\pred0.jpg')
+image = cv2.imread('pred\\pred10.jpg')
 img = Image.fromarray(image)
 img = img.resize((64, 64))
 
